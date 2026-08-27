@@ -1,0 +1,52 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'required' => 'El campo :attribute es obligatorio.',
+    'string' => 'El campo :attribute debe ser texto.',
+    'integer' => 'El campo :attribute debe ser un número entero.',
+    'boolean' => 'El campo :attribute debe ser verdadero o falso.',
+    'array' => 'El campo :attribute debe ser una lista válida.',
+    'date' => 'El campo :attribute debe contener una fecha válida.',
+    'exists' => 'El valor seleccionado para :attribute no es válido.',
+    'unique' => 'El valor de :attribute ya está registrado.',
+    'in' => 'El valor seleccionado para :attribute no es válido.',
+    'regex' => 'El formato de :attribute no es válido.',
+    'distinct' => 'El campo :attribute contiene un valor duplicado.',
+    'file' => 'El campo :attribute debe ser un archivo.',
+    'mimes' => 'El archivo :attribute debe ser de tipo: :values.',
+    'mimetypes' => 'El archivo :attribute debe ser de tipo: :values.',
+    'after' => 'La fecha de :attribute debe ser posterior a :date.',
+    'after_or_equal' => 'La fecha de :attribute debe ser igual o posterior a :date.',
+    'min' => [
+        'array' => 'El campo :attribute debe contener al menos :min elementos.',
+        'file' => 'El archivo :attribute debe pesar al menos :min kilobytes.',
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string' => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'max' => [
+        'array' => 'El campo :attribute no debe contener más de :max elementos.',
+        'file' => 'El archivo :attribute no debe superar :max kilobytes.',
+        'numeric' => 'El campo :attribute no debe ser mayor que :max.',
+        'string' => 'El campo :attribute no debe superar :max caracteres.',
+    ],
+    'attributes' => [
+        'form.nationalId' => 'cédula',
+        'form.firstName' => 'nombre',
+        'form.lastName' => 'primer apellido',
+        'form.secondLastName' => 'segundo apellido',
+        'form.courseId' => 'carrera y curso',
+        'form.agreement' => 'acuerdo del Consejo Universitario',
+        'form.gazetteNumber' => 'número de La Gaceta',
+        'form.validFrom' => 'inicio de vigencia',
+        'form.validUntil' => 'fin de vigencia',
+        'form.specializations' => 'especialidades atinentes',
+        'credentialForm.degreeLevel' => 'grado académico',
+        'credentialForm.institution' => 'institución',
+        'credentialForm.graduationYear' => 'año de obtención',
+        'credentialForm.specialization' => 'área de especialización',
+        'technicalNoteForm.document' => 'criterio técnico firmado',
+        'technicalNoteForm.ratificationDeadline' => 'fecha límite de ratificación',
+    ],
+];
